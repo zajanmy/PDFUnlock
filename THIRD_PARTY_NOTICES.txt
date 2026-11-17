@@ -1,0 +1,37 @@
+PDFUnlock desktop distribution
+=============================
+
+PDFUnlock source code is available under the MIT license:
+https://github.com/zajanmy/PDFUnlock
+
+This executable bundles unmodified third-party components. Their licenses are
+separate from PDFUnlock's MIT license. Package metadata and supplied license
+files are included in the executable and extracted with its runtime files.
+
+Qt / PySide6 / Shiboken (LGPLv3 option)
+  https://doc.qt.io/qtforpython-6/licenses.html
+  https://code.qt.io/cgit/pyside/pyside-setup.git/
+  https://code.qt.io/cgit/qt/qtbase.git/
+  https://www.gnu.org/licenses/lgpl-3.0.html
+  https://www.gnu.org/licenses/gpl-3.0.html
+  The application loads the Qt libraries dynamically. You may modify these
+  libraries and rebuild PDFUnlock with replacements using the supplied source,
+  requirements and PyInstaller spec. This project does not restrict reverse
+  engineering for debugging modifications to LGPL-covered components.
+
+pikepdf / qpdf
+  https://github.com/pikepdf/pikepdf
+  https://github.com/qpdf/qpdf
+
+Python
+  https://www.python.org/psf/license/
+  https://github.com/python/cpython
+
+Pillow, lxml and packaging
+  https://github.com/python-pillow/Pillow
+  https://github.com/lxml/lxml
+  https://github.com/pypa/packaging
+
+PyInstaller bootloader
+  https://pyinstaller.org/en/stable/license.html
+  https://github.com/pyinstaller/pyinstaller

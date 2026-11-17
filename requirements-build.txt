@@ -1,0 +1,5 @@
+-r requirements-gui.txt
+# Versions verified for the portable Windows x64 release.
+pikepdf==10.17.0
+PySide6-Essentials==6.12.0
+PyInstaller==6.22.3
